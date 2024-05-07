@@ -8,6 +8,10 @@
   <!-- linking cdn of bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!--fa fa-icon v5.15.4 linking-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- page css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
@@ -74,12 +78,42 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <h1>Latest in Internet Maturity</h1>
-        <p>Contents here...</p>
-        <h2>Upcoming Events and Webinars</h2>
-        <p>Contents here...</p>
-        <h2>Newsletter Subscription</h2>
-        <p>Contents here...</p>
+        <div class="card w-75 my-3 shadow mt-5" >
+          <div class="card-header d-flex justify-content-between align-items-center fw-bold fs-4">
+            Latest in Internet Maturity <i class="fas fa-bell"></i>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">About section updated</li>
+            <li class="list-group-item">FAQs section updated</li>
+            <li class="list-group-item">NewsAndUpdates section updated</li>
+          </ul>
+        </div>
+        <div class="card w-75 my-3 shadow" >
+          <div class="card-header fw-bold fs-4">
+            Upcoming Events and Webinars
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+        </div>
+        <div class="card shadow border border-warning" style="width:23%;position:absolute; top:105px; right:5px;" id="notificationBox">
+          <div class="card-header text-center fw-bold bg-warning">
+            Newsletter Subscription
+          </div>
+          <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-footer text-center fw-bold">
+            <button class="btn btn-warning">Subscribe</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
