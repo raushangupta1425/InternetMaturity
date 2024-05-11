@@ -1,0 +1,16 @@
+@charset "UTF-8";
+*{
+    font-family: sans-serif;
+}
+article{
+    width:80%;
+    margin:auto;
+}
+.col{
+    padding:2.4rem;
+    margin:2.5rem!important;
+    background-color: rgb(174, 174, 214);
+}
+.navbar{
+    background-color: rgb(154, 154, 214);
+}
