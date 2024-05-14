@@ -3,16 +3,8 @@
 *{
     font-family: sans-serif;
 }
-body{
-    background-color: #254666;
-}
-article{
+section{
     width:80%;
     margin: 50px auto;
     text-align: left;
-}
-.col{
-    padding:2.4rem;
-    margin:2.5rem;
-    background-color: rgb(174, 174, 214);
 }
