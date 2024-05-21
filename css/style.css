@@ -48,3 +48,12 @@
         width: 100% !important;
     }
 }
+
+.main-1{
+    font-size: x-large;
+    /* height: 400px; */
+    margin-left:300px;
+    width:60%;
+    border-radius: 20px;
+    border:2px solid black;
+}
