@@ -50,10 +50,7 @@
 }
 
 .main-1{
-    font-size: x-large;
-    /* height: 400px; */
-    margin-left:300px;
-    width:60%;
+    font-size: large;
     border-radius: 20px;
     border:2px solid black;
 }
