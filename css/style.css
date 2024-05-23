@@ -31,12 +31,12 @@
     display: flex;
     justify-content: center;
 }
-.main-1{
+/* .main-1{
     margin:2.2rem;
     width:100%;
     display: flex;
     justify-content:space-evenly;
-}
+} */
 
 @media (max-width: 576px){
     .accordion-item{
